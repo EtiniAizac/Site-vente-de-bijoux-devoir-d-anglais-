@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vente de bijoux</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Ajoutez votre feuille de style CSS -->
+</head>
+<body>
+<header>
+  <h1>Vente de bijoux</h1>
+  <nav>
+    <ul>
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#produits">Produits</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="accueil">
+  <h2>Bienvenue sur notre site de vente de bijoux</h2>
+  <p>Découvrez notre collection exclusive de bijoux faits à la main.</p>
+  <a href="#produits" class="btn">Voir nos produits</a>
+</section>
+
+<section id="produits">
+  <h2>Nos produits</h2>
+  <!-- Insérez ici vos produits avec des images, des descriptions et des prix -->
+</section>
+
+<section id="contact">
+  <h2>Contactez-nous</h2>
+  <form action="envoyer_message.php" method="post">
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" required>
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2024 Vente de bijoux. Tous droits réservés.</p>
+</footer>
+</body>
+</html>

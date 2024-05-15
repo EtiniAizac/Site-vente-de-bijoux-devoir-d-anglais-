@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bijoux Boutique - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/cart.js"></script> <!-- JavaScript for the cart system -->
+</head>
+<body>
+<header class="header-color">
+  <h1 class="title-color">Welcome to Bijoux Boutique</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="cart.html">Cart</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section>
+  <h2 class="subtitle-color">Our Jewelry Collection</h2>
+  <p>Explore our fine jewelry collection for every occasion. We offer unique pieces designed with high-quality materials.</p>
+  <a class="button-color" href="products.html">View Products</a>
+</section>
+
+<section>
+  <h2 class="subtitle-color">Featured Products</h2>
+  <div class="product">
+    <img src="img/emerald_necklace.webp" alt="Emerald Necklace" width="122" height="236">
+    <p>Emerald Necklace - $250</p>
+    <button onclick="addToCart('Emerald Necklace', 250)">Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="img/bracelet_perles.jpg" alt="Pearl Bracelet" width="300" height="300">
+    <p>Pearl Bracelet - $100</p>
+    <button onclick="addToCart('Pearl Bracelet', 100)">Add to Cart</button>
+  </div>
+</section>
+
+<footer>
+  <p>Contact us: contact@bijouxboutique.com | © 2024 Bijoux Boutique</p>
+</footer>
+</body>
+</html>

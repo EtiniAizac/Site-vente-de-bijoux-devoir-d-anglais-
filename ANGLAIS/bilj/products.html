@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bijoux Boutique - Products</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/cart.js"></script> <!-- JavaScript for the cart system -->
+</head>
+<body>
+<header class="header-color">
+  <h1 class="title-color">Our Products</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="cart.html">Cart</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section>
+  <h2 class="subtitle-color">Jewelry Collection</h2>
+  <div class="product">
+    <img src="img/necgold.png" alt="Gold Necklace" width="410" height="295">
+    <p>Gold Necklace - $1000</p>
+    <button onclick="addToCart('Gold Necklace', 1000)">Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="img/silver_bracelet.webp" alt="Silver Bracelet" width="480" height="480">
+    <p>Silver Bracelet - $3000</p>
+    <button onclick="addToCart('Silver Bracelet', 3000)">Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="img/diamond_ring.png" alt="Diamond Ring" width="365" height="260">
+    <p>Diamond Ring - $100,000</p>
+    <button onclick="addToCart('Diamond Ring', 100000)">Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="img/pearl_pendant.jpg" alt="Pearl Pendant" width="330" height="390">
+    <p>Pearl Pendant - $500</p>
+    <button onclick="addToCart('Pearl Pendant', 500)">Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="img/gold_earrings.png" alt="Gold Earrings" width="320" height="230">
+    <p>Gold Earrings - $667</p>
+    <button onclick="addToCart('Gold Earrings', 667)">Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="img/emerald_necklace.webp" alt="Emerald Necklace" width="222" height="336">
+    <p>Emerald Necklace - $9000</p>
+    <button onclick="addToCart('Emerald Necklace', 9000)">Add to Cart</button>
+  </div>
+</section>
+
+<footer>
+  <p>Contact us: contact@bijouxboutique.com | © 2024 Bijoux Boutique</p>
+</footer>
+</body>
+</html>

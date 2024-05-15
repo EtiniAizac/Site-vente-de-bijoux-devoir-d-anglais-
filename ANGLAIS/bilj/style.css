@@ -1,0 +1,81 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-color {
+  background-color: #3a3b3b; /* Couleur orange vif */
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFF; /* Blanc pour les liens */
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #731af8; /* Doré au survol */
+}
+
+.titre-color {
+  color: #9e4eff; /* Titre en doré */
+  text-shadow: 2px 2px #333; /* Ombre pour le titre */
+}
+
+.sous-titre-color {
+  color: #3a3b3b; /* Sous-titres en orange vif */
+}
+
+section {
+  padding: 20px;
+}
+
+.bouton-color {
+  background-color: #3a3b3b; /* Orange vif */
+  color: #FFF;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.bouton-color:hover {
+  background-color: #3a3b3b; /* Couleur plus sombre au survol */
+}
+
+.produit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.produit img {
+  width: 150px;
+  height: auto;
+}
+
+.produit p {
+  text-align: center;
+}
+
+footer {
+  background-color: #3a3b3b; /* Orange vif */
+  text-align: center;
+  padding: 10px;
+  color: #FFF; /* Texte blanc */
+}
